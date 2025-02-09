@@ -188,3 +188,70 @@ An argument could be made that gender plays a role in determining whether someon
   <img src="Graphs/male_vs_female.png" style="max-width: 70%; height: auto; display: block;"/>
 </p>
 
+<div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <h2 style="color: #4CAF50; text-align: left; border-bottom: 2px solid #ddd; padding-bottom: 5px;">Hypothesis Testing</h2>
+  
+  <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">
+    Using a significance level of 0.05
+  </p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 1: Model Statement</h3>
+<p align="center">
+  <img src="math/gender_binom.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 2: State Hypotheses</h3>
+<p align="center">
+  <img src="math/hypo_gender.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 3: Test Statistic and Null Distribution</h3>
+  <p style="text-align: center; font-size: 18px;">
+    <b>Test Statistic and Null Distribution for Difference of Proportions:</b>
+  </p>
+<p align="center">
+  <img src="math/Z-stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 4: Identify Relevant Outcomes</h3>
+<p align="center">
+  <img src="math/gender_t.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 5: Calculate a P-Value</h3>
+<p align="center">
+  <img src="math/gender_p_value.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 6: Interpret in Context</h3>
+  <p style="font-size: 18px;">
+    Our calculated P-Value is much larger than our significance level. This means that there is strong evidence for the null hypothesis that gender has no impact on the proportion of smokers in the UK. A confidence is not necessary and we can safely disregard the idea of a difference in population proportion based on gender.
+  </p>
+
+## **Part 3:** Education Levels
+
+Conventional wisdom may tell you that the higher education level someone has attained, the more likley they would be to maintain good health, whether that be because they know more about healthy habits or they simply have more money and time to invest into getting rid of habits such as smoking. In order to make a conclusion about how exactly education may impact the probaility of someone smoking in the UK, I have mutated the data to help find more of a concrete conclusion about this question.
+
+`No Formal Education`:
+<ul>
+    <li>No Qualification</li>
+</ul>
+
+`Basic Education`:
+<ul>
+    <li>GCSE/O Level</li>
+    <li>GCSE/CSE</li>
+</ul>
+
+`Intermediate Education`:
+<ul>
+    <li>A Levels</li>
+    <li>ONC/BTEC</li>
+    <li>Higher/Sub Degree</li>
+</ul>
+
+`Higher Education`:
+<ul>
+    <li>Degree</li>
+</ul>
