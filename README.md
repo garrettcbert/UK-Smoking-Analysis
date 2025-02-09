@@ -70,7 +70,7 @@ The graph below shows the number of smokers and non-smokers we have in our datas
 </table>
 
 <p align="center">
-  <img src="Graphs/marital_status_graph.png" style="max-width: 70%; height: auto; display: block;"/>
+  <img src="Graphs/single_vs_married.png" style="max-width: 70%; height: auto; display: block;"/>
 </p>
 <p align="center">
 
@@ -315,3 +315,155 @@ Conventional wisdom may tell you that the higher education level someone has att
 <p align="center">
   <img src="Graphs/education_graph.png" style="max-width: 70%; height: auto; display: block;"/>
 </p>
+
+This graph shows something I would not have expected. `Basic Education`, atleast according to our sample percentages has far and away the greatest fraction of smokers. `Higher Education` people, as I would expect has the lowest percentage of smokers, but `No Formal Education` people do not have the highest as I would have predicted. Students in the `Basic Education` levels of GCSE/O Level and GCSE/CSE have passed what is really the bear minumum for people who want to pursue a well-paying job. People with `No Formal Education` likely ended their schooling after the compulsory education ended at around the age of 16. Because `Intermediate Education` and `No Formal Education` appears to have a similar sample proportion this is not worth testing to apply to the population, however, we can perform a series of tests to find conclusions about how some of the education levels relate to smoking rates.
+
+<div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <h2 style="color: #4CAF50; text-align: left; border-bottom: 2px solid #ddd; padding-bottom: 5px;">3a. No Formal Education vs. Basic Education Hypothesis Testing</h2>
+  
+  <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">
+    Using a significance level of 0.05
+  </p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 1: Model Statement</h3>
+<p align="center">
+  <img src="math/binom_education.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 2: State Hypotheses</h3>
+<p align="center">
+  <img src="math/hypo_education.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 3: Test Statistic and Null Distribution</h3>
+  <p style="text-align: center; font-size: 18px;">
+    <b>Test Statistic and Null Distribution for Difference of Proportions:</b>
+  </p>
+<p align="center">
+  <img src="math/Z-stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 4: Identify Relevant Outcomes</h3>
+<p align="center">
+  <img src="math/education_t_stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 5: Calculate a P-Value</h3>
+<p align="center">
+  <img src="math/education_p_val.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 6: Interpret in Context</h3>
+  <p style="font-size: 18px;">
+    A P-Value of 3.548652e-5 is much smaller than our significance level of 0.05 so we have enough evidence to refute the null hypothesis that the real proportion of people with a Basic Education is equal to the real proportion of people with No Formal Education. There is strong evidence that the true proportion of people with a Basic Education that smoke is greater than the true proportion of people with No Formal Education that smoke. 
+  </p>
+
+It is difficult to properly hypothesize about why this might be the case. Students that never pass their GCSE or never obtain any other equivilant qualification might experience different stresses and use different coping mechanisms. Whether a proportion of people smoke or not is largely determined by the societal norms put in place in that area. If someone leaves school early to enter a field with less smokers overall then they would not be as likely to smoke themselves. The lesson that we should take from these results should not be to discourage getting these types of qualifications but stop dangerous norms like smoking from appearing in a setting such as a school, where young people are more easily influenced and addictions are more easily created.
+
+<div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <h2 style="color: #4CAF50; text-align: left; border-bottom: 2px solid #ddd; padding-bottom: 5px;">3b. Basic Education vs. Higher Education</h2>
+  
+  <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">
+    Using a significance level of 0.05
+  </p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 1: Model Statement</h3>
+<p align="center">
+  <img src="math/basic_higher_binom.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 2: State Hypotheses</h3>
+<p align="center">
+  <img src="math/basic_higher_hypo.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 3: Test Statistic and Null Distribution</h3>
+  <p style="text-align: center; font-size: 18px;">
+    <b>Test Statistic and Null Distribution for Difference of Proportions:</b>
+  </p>
+<p align="center">
+  <img src="math/Z-stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 4: Identify Relevant Outcomes</h3>
+<p align="center">
+  <img src="math/basic_higher_t_stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 5: Calculate a P-Value</h3>
+<p align="center">
+  <img src="math/basic_higher_p_val.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+  <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 6: Interpret in Context</h3>
+  <p style="font-size: 18px;">
+    Our P-Value is yet again extremely small meaning that we have strong evidence that the true proportion of people that smoke with a basic education level is greater than the true proportion of people that smoke with a degree. These results are not particularly surprising considering we can easily relate having a higher education level to being more healthy. 
+  </p>
+
+# Relavant Heatmap
+
+We have collected a solid amount of information about the true proportion of smokers within our dataset in certain groups. To recap the results:
+
+<ol>
+    <li>True proportion of single smokers in the UK is very likley larger than the true proportion of married smokers</li>
+    <li>There is no statistical significance between the true proportion of males and females in the UK that smoke</li>
+    <li>True proportion of people with a basic education level that smoke in the UK is surprisingly likely greater than the true proportion of people with no formal education that smoke in the UK</li>
+    <li>True proportion of people with a basic education level that smoke in the UK is likley greater than the true proportion of people with a higher education level that smoke in the UK</li>
+</ol>
+
+To start to understand what economic and social climate breeds the largest true proportion of smokers in the UK, we can compare these factors against each other using a heatmap.
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>highest_qualification</th>
+<th>Basic Education</th>
+<th>Higher Education</th>
+<th>Intermediate Education</th>
+<th>No Formal Education</th>
+</tr>
+<tr>
+<th>marital_status</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Married</th>
+<td>0.315789</td>
+<td>0.111111</td>
+<td>0.218182</td>
+<td>0.170543</td>
+</tr>
+<tr>
+<th>Single</th>
+<td>0.500000</td>
+<td>0.240964</td>
+<td>0.162162</td>
+<td>0.321429</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<p align="center">
+  <img src="Graphs/heatmap.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+
+## Heatmap Conclusions
+
+This heatmap gives us a good idea of where the highest proportion of smokers in the UK seem to lie. The area corresponding to `Basic Education` and `Single` is far and away the highest proportion of 50% of those in those categories in our sample identifying as smokers. This agrees with our earlier conclusion that between `Single` and `Married`, `Single` has a statistically significant greater proportion of smokers. As well as our other conclusion that among our distinct education levels, `Basic Education` has a statistically greater real proportion of smokers in the UK
+
+# Overall Conclusions
+
+Although only three factors were tested of many possible factors that could play into whether someone smokes, this information is still useful in understanding why some people are pushed into forming bad habits. Being single, of course, is not an inherently bad thing, but having a partner evidently may be a contributing factor into pursuing a healthy lifestyle. Another worthwhile conclusion that was made is that gender does not seem to have a real effect on smoking habits. Men in the UK have just as good of a chance to take up smoking as women. Education levels is where some very surprising findings were made. I have been made to assume, that the more education someone has access to, the more likley they will be to pursue good habits, whether that be because they are more educated regarding what is healthy and what is not or because they simply have the access/money required to build better habits. The statistical conclusions made mostly followed this pattern, but the discovery that the true UK smoking percentage of those with a `Basic Education` level is very likley greater than the true proportion of those with `No Formal Education` changed by perception on this topic.
+
+Finally, the heatmap connected some of the other findings that were made prior and gave strong evidence that those in the `Single` and `Basic Education` categories have the greatest probability of identifying as a smoker (50%). Perhaps unsurprisingly, on the other side of the spectrum, only 11% of those in the `Married` and `Higher Education` categories in the sample data identify as smokers. 
