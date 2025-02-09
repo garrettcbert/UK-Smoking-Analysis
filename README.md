@@ -80,40 +80,36 @@ The graph below shows the number of smokers and non-smokers we have in our datas
   </p>
 
   <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 1: Model Statement</h3>
-
+<p align="center">
+  <img src="math/single_married_binom.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 2: State Hypotheses</h3>
-  <p style="text-align: center; font-size: 20px; margin: 10px 0;">
-    \( H_0: p_\text{Single} = p_\text{Married} \)
-  </p>
-  <p style="text-align: center; font-size: 20px; margin: 10px 0;">
-    \( H_\alpha: p_\text{Single} > p_\text{Married} \)
-  </p>
+<p align="center">
+  <img src="math/hypo_single_married.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 3: Test Statistic and Null Distribution</h3>
   <p style="text-align: center; font-size: 18px;">
     <b>Test Statistic and Null Distribution for Difference of Proportions:</b>
   </p>
-  <p style="text-align: center; font-size: 22px; color: #555;">
-    \( Z = \frac{(\hat{p_1} - \hat{p_2}) - (0)}{\sqrt{\frac{\bar{p}(1-\bar{p})}{n_1} + \frac{\bar{p}(1-\bar{p})}{n_2}}} \sim N(0, 1) \)
-  </p>
+<p align="center">
+  <img src="math/Z-stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 4: Identify Relevant Outcomes</h3>
-  <p style="text-align: center; font-size: 20px;">
-    \(\text{Single vs. Married Test Statistic} = 7.564\)
-  </p>
+<p align="center">
+  <img src="math/single_married_t_stat.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 5: Calculate a P-Value</h3>
-  <p style="text-align: center; font-size: 18px; color: #555;">
-    \( \text{P-Value} = P(Z \geq |z|) \)
-  </p>
-  <p style="text-align: center; font-size: 20px; font-weight: bold;">
-    \( \text{Single vs. Married P-Value} = 1.953993 \times 10^{-14} \)
-  </p>
+<p align="center">
+  <img src="math/single_married_p_value.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <h3 style="color: #4CAF50; text-align: left; margin-top: 20px;">Step 6: Interpret in Context</h3>
   <p style="font-size: 18px;">
-    Our calculated P-Value is much smaller than our significance level of \( 0.05 \), providing significant evidence that the true proportion of single people who smoke in the UK is not equal to the proportion of married people who smoke. 
+    Our calculated P-Value is much smaller than our significance level of 0.05, providing significant evidence that the true proportion of single people who smoke in the UK is not equal to the proportion of married people who smoke. 
   </p>
   <p style="font-size: 18px;">
     Although it may already be clear which proportion is likely larger, we can confirm this using a confidence interval.
@@ -122,24 +118,21 @@ The graph below shows the number of smokers and non-smokers we have in our datas
   <h2 style="color: lightblue; text-align: left; border-bottom: 2px solid #ddd; padding-bottom: 5px;">Confidence Interval (C = 0.95)</h2>
   
   <p style="font-size: 18px; font-weight: bold;">General Formula for Confidence Interval:</p>
-  <p style="text-align: center; font-size: 22px; color: lightblue;">
-    \( \text{Point Estimate} \pm \text{Quantile Confidence Score * Standard Error of PE} \)
-  </p>
+<p align="center">
+  <img src="math/stand_conf_equation.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <p style="font-size: 18px; font-weight: bold;">Confidence Interval for Difference in Proportions:</p>
   <p style="font-size: 18px;">
     Using the <b>Agresti-Coull Adjustment:</b>
   </p>
-  <p style="text-align: center; font-size: 22px; color: lightblue;">
-    \( \hat{p_{1AC}} - \hat{p_{2AC}} \pm \text{qnorm}(C + (1-C)/2) \cdot \sqrt{\frac{\hat{p}_{1AC}(1-\hat{p}_{1AC})}{n_1+2} + \frac{\hat{p}_{2AC}(1-\hat{p}_{2AC})}{n_2+2}} \)
-  </p>
-  <p style="text-align: center; font-size: 22px; color: lightblue;">
-    \( \frac{158 + 2}{427 + 4} - \frac{143 + 2}{812 + 4} \pm \text{qnorm}(0.95 + (1-0.95)/2) \cdot \sqrt{\frac{\frac{158 + 2}{427 + 4}(1-\frac{158 + 2}{427 + 4})}{427+2} + \frac{\frac{143 + 2}{812 + 4}(1-\frac{143 + 2}{812 + 4})}{812+2}} \)
-  </p>
+<p align="center">
+  <img src="math/conf_equation.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
-  <p style="text-align: center; font-size: 20px; font-weight: bold;">
-    Left Bound: \( 0.141 \) &nbsp;&nbsp; | &nbsp;&nbsp; Right Bound: \( 0.246 \)
-  </p>
+<p align="center">
+  <img src="math/conf_bounds.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
 
   <h2 style="color: purple; text-align: left; border-bottom: 2px solid #ddd; padding-bottom: 5px;">Conclusion:</h2>
   <p style="font-size: 18px;">
