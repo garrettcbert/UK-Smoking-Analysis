@@ -70,6 +70,9 @@ The graph below shows the number of smokers and non-smokers we have in our datas
 </table>
 
 <p align="center">
+  <img src="Graphs/marital_status_graph.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
+<p align="center">
 
 <div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
 
@@ -255,3 +258,60 @@ Conventional wisdom may tell you that the higher education level someone has att
 <ul>
     <li>Degree</li>
 </ul>
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>total_smoke</th>
+<th>total</th>
+<th>perc_smoke</th>
+<th>non_smoke</th>
+</tr>
+<tr>
+<th>highest_qualification</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>No Formal Education</th>
+<td>137</td>
+<td>586</td>
+<td>0.233788</td>
+<td>449</td>
+</tr>
+<tr>
+<th>Basic Education</th>
+<td>143</td>
+<td>410</td>
+<td>0.348780</td>
+<td>267</td>
+</tr>
+<tr>
+<th>Intermediate Education</th>
+<td>71</td>
+<td>306</td>
+<td>0.232026</td>
+<td>235</td>
+</tr>
+<tr>
+<th>Higher Education</th>
+<td>39</td>
+<td>262</td>
+<td>0.148855</td>
+<td>223</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<p align="center">
+  <img src="Graphs/education_graph.png" style="max-width: 70%; height: auto; display: block;"/>
+</p>
