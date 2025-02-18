@@ -403,7 +403,6 @@ It is difficult to properly hypothesize about why this might be the case. Studen
   </p>
 
 # Relavant Heatmap
-
 We have collected a solid amount of information about the true proportion of smokers within our dataset in certain groups. To recap the results:
 
 <ol>
@@ -459,17 +458,14 @@ To start to understand what economic and social climate breeds the largest true 
 </p>
 
 ## Heatmap Conclusions
-
 This heatmap gives us a good idea of where the highest proportion of smokers in the UK seem to lie. The area corresponding to `Basic Education` and `Single` is far and away the highest proportion of 50% of those in those categories in our sample identifying as smokers. This agrees with our earlier conclusion that between `Single` and `Married`, `Single` has a statistically significant greater proportion of smokers. As well as our other conclusion that among our distinct education levels, `Basic Education` has a statistically greater real proportion of smokers in the UK
 
 # Overall Conclusions
-
 Although only three factors were tested of many possible factors that could play into whether someone smokes, this information is still useful in understanding why some people are pushed into forming bad habits. Being single, of course, is not an inherently bad thing, but having a partner evidently may be a contributing factor into pursuing a healthy lifestyle. Another worthwhile conclusion that was made is that gender does not seem to have a real effect on smoking habits. Men in the UK have just as good of a chance to take up smoking as women. Education levels is where some very surprising findings were made. I have been made to assume, that the more education someone has access to, the more likley they will be to pursue good habits, whether that be because they are more educated regarding what is healthy and what is not or because they simply have the access/money required to build better habits. The statistical conclusions made mostly followed this pattern, but the discovery that the true UK smoking percentage of those with a `Basic Education` level is very likley greater than the true proportion of those with `No Formal Education` changed by perception on this topic.
 
 Finally, the heatmap connected some of the other findings that were made prior and gave strong evidence that those in the `Single` and `Basic Education` categories have the greatest probability of identifying as a smoker (50%). Perhaps unsurprisingly, on the other side of the spectrum, only 11% of those in the `Married` and `Higher Education` categories in the sample data identify as smokers. 
 
 # What Can We Do?
-
 ### `Single vs. Married`
 If an intimate relationship does indeed play a significant role in whether people take up a bad habit like smoking, then the logical step would be to provide the tools and encouragement for more to get out onto the dating scene. Young people are having a harder time than ever finding compatible partners and dating apps do not seem to helping much. A strong step would be normalizing in-person dating events, as the online scene feels too disconnected and threatening to many.
 
